@@ -1,0 +1,21 @@
+#root {
+    display: flex;
+    box-sizing: border-box;
+    min-height: 100vh; /* Use viewport height */
+    min-width: 100vw; /* Use viewport width */
+    margin: 20px;
+}
+
+.container-weather {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 2rem; 
+    justify-self: center;
+    min-height: 100vh; /* Use viewport height */
+    min-width: 100vw; /* Use viewport width */
+}
+
+.weather-grid-item {
+    text-align: center;
+}
+  
